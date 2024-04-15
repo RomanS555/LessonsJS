@@ -1,6 +1,6 @@
 let cat = 2
 let dog = "кот"
-let parrot = false
+var parrot = false
 let horse = false
 
 let a = [cat, dog, parrot, horse]
@@ -8,6 +8,7 @@ console.log(a.indexOf(parrot))
 
 for(let i = 0;i < a.length;i++){
     if(a[i] === parrot){
-        console.log(i); //2 способ решения(может вывести адрес переменной с тем же типом и значением)
+        console.log(i); //2 способ решения(может вывести адреса другой переменной с тем же типом и значением)
+        
     }
 }

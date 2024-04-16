@@ -5,7 +5,7 @@ let v = 0
 if(an > 0 && an == Math.round(an)){
 
 
-for(let i = 1; i < an; i++){
+for(let i = 1; i <= an; i++){
   v = twovalues[0] + twovalues[1]
     if(i%2==0){
       twovalues[0] = v
